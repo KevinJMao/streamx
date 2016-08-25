@@ -72,9 +72,4 @@ public class HdfsSinkConnector extends Connector {
   public void stop() throws ConnectException {
 
   }
-
-  @Override
-  public ConfigDef config() {
-    return HdfsSinkConnectorConfig.getConfig();
-  }
 }

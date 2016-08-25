@@ -74,9 +74,4 @@ public class S3SinkConnector extends Connector {
     public void stop() throws ConnectException {
 
     }
-
-    @Override
-    public ConfigDef config() {
-        return S3SinkConnectorConfig.getConfig();
-    }
 }

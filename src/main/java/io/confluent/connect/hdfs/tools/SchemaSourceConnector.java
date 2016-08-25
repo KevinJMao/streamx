@@ -56,9 +56,4 @@ public class SchemaSourceConnector extends SourceConnector {
   @Override
   public void stop() {
   }
-
-  @Override
-  public ConfigDef config() {
-    return new ConfigDef();
-  }
 }
